@@ -1,0 +1,34 @@
+#!/usr/bin/env bash
+# Pre-commit hook: run stylua on staged Lua files
+
+set -e
+
+if ! command -v stylua &>/dev/null; then
+  echo "warning: stylua not found, skipping format check"
+  echo "  install: cargo install stylua"
+  exit 0
+fi
+
+STAGED=$(git diff --cached --name-only --diff-filter=ACM | grep '\.lua$' || true)
+
+if [ -z "$STAGED" ]; then
+  exit 0
+fi
+
+FAILED=()
+for file in $STAGED; do
+  if ! stylua --check "$file" 2>/dev/null; then
+    FAILED+=("$file")
+  fi
+done
+
+if [ ${#FAILED[@]} -gt 0 ]; then
+  echo ""
+  echo "stylua: formatting issues found in:"
+  for f in "${FAILED[@]}"; do
+    echo "  $f"
+  done
+  echo ""
+  echo "Run 'stylua lua/ colors/' to fix, then re-stage."
+  exit 1
+fi
