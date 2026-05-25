@@ -1,0 +1,25 @@
+{
+  "name": "zero-light",
+  "background": "#f7f8fa",
+  "foreground": "#1b1d24",
+  "cursorColor": "#0c7d43",
+  "selectionBackground": "#cdebd9",
+
+  "black": "#e2e4e8",
+  "red": "#d61f3a",
+  "green": "#0c7d43",
+  "yellow": "#847000",
+  "blue": "#2070d0",
+  "purple": "#6a30db",
+  "cyan": "#0a7268",
+  "white": "#5b626e",
+
+  "brightBlack": "#aab0bb",
+  "brightRed": "#b81731",
+  "brightGreen": "#0a6b3a",
+  "brightYellow": "#6f5e00",
+  "brightBlue": "#1a5fb0",
+  "brightPurple": "#5826bd",
+  "brightCyan": "#086158",
+  "brightWhite": "#1b1d24"
+}

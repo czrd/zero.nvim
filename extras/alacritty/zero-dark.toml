@@ -1,0 +1,42 @@
+# zero.nvim — Dark
+# https://github.com/your-username/zero.nvim
+
+[colors.primary]
+background = "#141519"
+foreground = "#eef0f4"
+
+[colors.cursor]
+text   = "#141519"
+cursor = "#36e07e"
+
+[colors.vi_mode_cursor]
+text   = "#141519"
+cursor = "#36e07e"
+
+[colors.search.matches]
+foreground = "#141519"
+background = "#f2d24c"
+
+[colors.search.focused_match]
+foreground = "#141519"
+background = "#ff9356"
+
+[colors.normal]
+black   = "#1c1d24"
+red     = "#ff5c5c"
+green   = "#36e07e"
+yellow  = "#f2d24c"
+blue    = "#4ea6ff"
+magenta = "#a98cff"
+cyan    = "#2fd9c8"
+white   = "#c8ccd6"
+
+[colors.bright]
+black   = "#4b5160"
+red     = "#ff7b7b"
+green   = "#5fe89a"
+yellow  = "#f7dd6e"
+blue    = "#6fb8ff"
+magenta = "#bfa6ff"
+cyan    = "#5fe3d6"
+white   = "#eef0f4"

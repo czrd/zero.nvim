@@ -1,0 +1,46 @@
+local M = {}
+
+function M.get(t, _opts)
+  return {
+    DiffviewNormal = { fg = t.fg, bg = t.bg_sidebar },
+    DiffviewCursorLine = { bg = t.bg_selection },
+    DiffviewNonText = { fg = t.fg_gutter },
+    DiffviewEndOfBuffer = { fg = t.bg_sidebar },
+    DiffviewStatusLine = { link = "StatusLine" },
+    DiffviewStatusLineNC = { link = "StatusLineNC" },
+    DiffviewSignColumn = { fg = t.fg_gutter, bg = t.bg_sidebar },
+    DiffviewLineNr = { fg = t.fg_gutter },
+    DiffviewDiffAdd = { bg = t.diff_add },
+    DiffviewDiffDelete = { bg = t.diff_delete },
+    DiffviewDiffAddAsDelete = { bg = t.diff_delete },
+    DiffviewDiffChange = { bg = t.diff_change },
+    DiffviewDiffText = { bg = t.diff_text },
+    DiffviewWinSeparator = { fg = t.border },
+    DiffviewFilePanelTitle = { fg = t.bg, bg = t.green, bold = true },
+    DiffviewFilePanelCounter = { fg = t.orange, bold = true },
+    DiffviewFilePanelRootPath = { fg = t.green },
+    DiffviewFilePanelFileName = { fg = t.fg },
+    DiffviewFilePanelPath = { fg = t.comment },
+    DiffviewFilePanelInsertions = { fg = t.git_add },
+    DiffviewFilePanelDeletions = { fg = t.git_delete },
+    DiffviewFilePanelConflicts = { fg = t.orange },
+    DiffviewFolderSign = { fg = t.fg_gutter },
+    DiffviewFolderName = { fg = t.blue },
+    DiffviewReference = { fg = t.teal },
+    DiffviewStatusAdded = { fg = t.git_add },
+    DiffviewStatusBroken = { fg = t.red },
+    DiffviewStatusCopied = { fg = t.git_change },
+    DiffviewStatusDeleted = { fg = t.git_delete },
+    DiffviewStatusModified = { fg = t.git_change },
+    DiffviewStatusRenamed = { fg = t.git_change },
+    DiffviewStatusTypeChange = { fg = t.git_change },
+    DiffviewStatusUnknown = { fg = t.comment },
+    DiffviewStatusUnmerged = { fg = t.orange },
+    DiffviewStatusUntracked = { fg = t.fg_gutter },
+    DiffviewHash = { fg = t.teal },
+    DiffviewHashBorder = { fg = t.border },
+    DiffviewSecondary = { fg = t.comment },
+  }
+end
+
+return M
