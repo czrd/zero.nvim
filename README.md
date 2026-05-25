@@ -3,19 +3,6 @@
 A flat, high-contrast Neovim colorscheme with green as its signature color.
 Dual dark/light modes, full Treesitter support, and coverage for 25+ popular plugins.
 
-## 🖼️ Color Preview
-
-| Accent | ☀️ Light | 🌑 Dark |
-|---|---|---|
-| 🌿 Green (keyword) | ![#0c7d43](https://placehold.co/80x20/0c7d43/0c7d43) `#0c7d43` | ![#36e07e](https://placehold.co/80x20/36e07e/36e07e) `#36e07e` |
-| 🟡 Gold (string) | ![#847000](https://placehold.co/80x20/847000/847000) `#847000` | ![#f2d24c](https://placehold.co/80x20/f2d24c/f2d24c) `#f2d24c` |
-| 🔵 Blue (function) | ![#2070d0](https://placehold.co/80x20/2070d0/2070d0) `#2070d0` | ![#4ea6ff](https://placehold.co/80x20/4ea6ff/4ea6ff) `#4ea6ff` |
-| 🟣 Violet (type) | ![#6a30db](https://placehold.co/80x20/6a30db/6a30db) `#6a30db` | ![#a98cff](https://placehold.co/80x20/a98cff/a98cff) `#a98cff` |
-| 🟠 Orange (constant) | ![#b35411](https://placehold.co/80x20/b35411/b35411) `#b35411` | ![#ff9356](https://placehold.co/80x20/ff9356/ff9356) `#ff9356` |
-| 🩵 Teal (operator) | ![#0a7268](https://placehold.co/80x20/0a7268/0a7268) `#0a7268` | ![#2fd9c8](https://placehold.co/80x20/2fd9c8/2fd9c8) `#2fd9c8` |
-| 🔴 Red (error) | ![#d61f3a](https://placehold.co/80x20/d61f3a/d61f3a) `#d61f3a` | ![#ff5c5c](https://placehold.co/80x20/ff5c5c/ff5c5c) `#ff5c5c` |
-
----
 
 ## 🎨 Color Palette
 
@@ -79,7 +66,7 @@ Dual dark/light modes, full Treesitter support, and coverage for 25+ popular plu
 
 ```lua
 {
-  "your-username/zero.nvim",
+  "czrd/zero.nvim",
   priority = 1000,
   config = function()
     require("zero").setup({
@@ -200,8 +187,8 @@ vim.opt.rtp:prepend("/path/to/zero.nvim")
 vim.opt.termguicolors = true
 vim.cmd("colorscheme zero")
 
--- test light mode
--- vim.o.background = "light"
+-- test dark mode
+-- require("zero").setup({ style = "dark" })
 ```
 
 ```sh
