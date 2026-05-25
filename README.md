@@ -6,47 +6,24 @@ Dual dark/light modes, full Treesitter support, and coverage for 25+ popular plu
 
 ## 🎨 Color Palette
 
-### 🌑 Dark
-
-| Role | Key | Color | &nbsp; |
-|---|---|---|---|
-| Background | `bg` | `#141519` | ![#141519](https://placehold.co/20x20/141519/141519) |
-| Background dark | `bg_dark` | `#0f1013` | ![#0f1013](https://placehold.co/20x20/0f1013/0f1013) |
-| Background float | `bg_float` | `#1c1d24` | ![#1c1d24](https://placehold.co/20x20/1c1d24/1c1d24) |
-| CursorLine | `bg_cursorline` | `#1d1e26` | ![#1d1e26](https://placehold.co/20x20/1d1e26/1d1e26) |
-| Visual | `bg_visual` | `#2e3b33` | ![#2e3b33](https://placehold.co/20x20/2e3b33/2e3b33) |
-| Foreground | `fg` | `#eef0f4` | ![#eef0f4](https://placehold.co/20x20/eef0f4/eef0f4) |
-| Foreground dim | `fg_dim` | `#b8bcc6` | ![#b8bcc6](https://placehold.co/20x20/b8bcc6/b8bcc6) |
-| Gutter | `fg_gutter` | `#4b5160` | ![#4b5160](https://placehold.co/20x20/4b5160/4b5160) |
-| Comment | `comment` | `#6e7689` | ![#6e7689](https://placehold.co/20x20/6e7689/6e7689) |
-| 🌿 **Green** (keyword) | `green` | `#36e07e` | ![#36e07e](https://placehold.co/20x20/36e07e/36e07e) |
-| 🟡 Gold (string) | `gold` | `#f2d24c` | ![#f2d24c](https://placehold.co/20x20/f2d24c/f2d24c) |
-| 🔵 Blue (function) | `blue` | `#4ea6ff` | ![#4ea6ff](https://placehold.co/20x20/4ea6ff/4ea6ff) |
-| 🟣 Violet (type) | `violet` | `#a98cff` | ![#a98cff](https://placehold.co/20x20/a98cff/a98cff) |
-| 🟠 Orange (constant) | `orange` | `#ff9356` | ![#ff9356](https://placehold.co/20x20/ff9356/ff9356) |
-| 🩵 Teal (operator) | `teal` | `#2fd9c8` | ![#2fd9c8](https://placehold.co/20x20/2fd9c8/2fd9c8) |
-| 🔴 Red (error) | `red` | `#ff5c5c` | ![#ff5c5c](https://placehold.co/20x20/ff5c5c/ff5c5c) |
-
-### ☀️ Light
-
-| Role | Key | Color | &nbsp; |
-|---|---|---|---|
-| Background | `bg` | `#f7f8fa` | ![#f7f8fa](https://placehold.co/20x20/f7f8fa/f7f8fa) |
-| Background dark | `bg_dark` | `#eceef1` | ![#eceef1](https://placehold.co/20x20/eceef1/eceef1) |
-| Background float | `bg_float` | `#ffffff` | ![#ffffff](https://placehold.co/20x20/ffffff/ffffff) |
-| CursorLine | `bg_cursorline` | `#eef0f3` | ![#eef0f3](https://placehold.co/20x20/eef0f3/eef0f3) |
-| Visual | `bg_visual` | `#cdebd9` | ![#cdebd9](https://placehold.co/20x20/cdebd9/cdebd9) |
-| Foreground | `fg` | `#1b1d24` | ![#1b1d24](https://placehold.co/20x20/1b1d24/1b1d24) |
-| Foreground dim | `fg_dim` | `#5b626e` | ![#5b626e](https://placehold.co/20x20/5b626e/5b626e) |
-| Gutter | `fg_gutter` | `#aab0bb` | ![#aab0bb](https://placehold.co/20x20/aab0bb/aab0bb) |
-| Comment | `comment` | `#828995` | ![#828995](https://placehold.co/20x20/828995/828995) |
-| 🌿 **Green** (keyword) | `green` | `#0c7d43` | ![#0c7d43](https://placehold.co/20x20/0c7d43/0c7d43) |
-| 🟡 Gold (string) | `gold` | `#847000` | ![#847000](https://placehold.co/20x20/847000/847000) |
-| 🔵 Blue (function) | `blue` | `#2070d0` | ![#2070d0](https://placehold.co/20x20/2070d0/2070d0) |
-| 🟣 Violet (type) | `violet` | `#6a30db` | ![#6a30db](https://placehold.co/20x20/6a30db/6a30db) |
-| 🟠 Orange (constant) | `orange` | `#b35411` | ![#b35411](https://placehold.co/20x20/b35411/b35411) |
-| 🩵 Teal (operator) | `teal` | `#0a7268` | ![#0a7268](https://placehold.co/20x20/0a7268/0a7268) |
-| 🔴 Red (error) | `red` | `#d61f3a` | ![#d61f3a](https://placehold.co/20x20/d61f3a/d61f3a) |
+| Role | Key | ☀️ Light | &nbsp; | 🌑 Dark | &nbsp; |
+|---|---|---|---|---|---|
+| Background | `bg` | `#f7f8fa` | ![](https://placehold.co/20x20/f7f8fa/f7f8fa) | `#141519` | ![](https://placehold.co/20x20/141519/141519) |
+| Background dark | `bg_dark` | `#eceef1` | ![](https://placehold.co/20x20/eceef1/eceef1) | `#0f1013` | ![](https://placehold.co/20x20/0f1013/0f1013) |
+| Background float | `bg_float` | `#ffffff` | ![](https://placehold.co/20x20/ffffff/ffffff) | `#1c1d24` | ![](https://placehold.co/20x20/1c1d24/1c1d24) |
+| CursorLine | `bg_cursorline` | `#eef0f3` | ![](https://placehold.co/20x20/eef0f3/eef0f3) | `#1d1e26` | ![](https://placehold.co/20x20/1d1e26/1d1e26) |
+| Visual | `bg_visual` | `#cdebd9` | ![](https://placehold.co/20x20/cdebd9/cdebd9) | `#2e3b33` | ![](https://placehold.co/20x20/2e3b33/2e3b33) |
+| Foreground | `fg` | `#1b1d24` | ![](https://placehold.co/20x20/1b1d24/1b1d24) | `#eef0f4` | ![](https://placehold.co/20x20/eef0f4/eef0f4) |
+| Foreground dim | `fg_dim` | `#5b626e` | ![](https://placehold.co/20x20/5b626e/5b626e) | `#b8bcc6` | ![](https://placehold.co/20x20/b8bcc6/b8bcc6) |
+| Gutter | `fg_gutter` | `#aab0bb` | ![](https://placehold.co/20x20/aab0bb/aab0bb) | `#4b5160` | ![](https://placehold.co/20x20/4b5160/4b5160) |
+| Comment | `comment` | `#828995` | ![](https://placehold.co/20x20/828995/828995) | `#6e7689` | ![](https://placehold.co/20x20/6e7689/6e7689) |
+| 🌿 **Green** (keyword) | `green` | `#0c7d43` | ![](https://placehold.co/20x20/0c7d43/0c7d43) | `#36e07e` | ![](https://placehold.co/20x20/36e07e/36e07e) |
+| 🟡 Gold (string) | `gold` | `#847000` | ![](https://placehold.co/20x20/847000/847000) | `#f2d24c` | ![](https://placehold.co/20x20/f2d24c/f2d24c) |
+| 🔵 Blue (function) | `blue` | `#2070d0` | ![](https://placehold.co/20x20/2070d0/2070d0) | `#4ea6ff` | ![](https://placehold.co/20x20/4ea6ff/4ea6ff) |
+| 🟣 Violet (type) | `violet` | `#6a30db` | ![](https://placehold.co/20x20/6a30db/6a30db) | `#a98cff` | ![](https://placehold.co/20x20/a98cff/a98cff) |
+| 🟠 Orange (constant) | `orange` | `#b35411` | ![](https://placehold.co/20x20/b35411/b35411) | `#ff9356` | ![](https://placehold.co/20x20/ff9356/ff9356) |
+| 🩵 Teal (operator) | `teal` | `#0a7268` | ![](https://placehold.co/20x20/0a7268/0a7268) | `#2fd9c8` | ![](https://placehold.co/20x20/2fd9c8/2fd9c8) |
+| 🔴 Red (error) | `red` | `#d61f3a` | ![](https://placehold.co/20x20/d61f3a/d61f3a) | `#ff5c5c` | ![](https://placehold.co/20x20/ff5c5c/ff5c5c) |
 
 ---
 
