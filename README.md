@@ -178,24 +178,6 @@ require("lualine").setup({
 
 ---
 
-## 🧪 Minimum test init.lua
-
-Useful for verifying the colorscheme without your full config:
-
-```lua
-vim.opt.rtp:prepend("/path/to/zero.nvim")
-vim.opt.termguicolors = true
-vim.cmd("colorscheme zero")
-
--- test dark mode
--- require("zero").setup({ style = "dark" })
-```
-
-```sh
-nvim -u /path/to/test_init.lua
-```
-
----
 
 ## 🔌 Supported plugins
 
