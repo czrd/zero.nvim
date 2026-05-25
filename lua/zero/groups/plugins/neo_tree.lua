@@ -5,8 +5,8 @@ function M.get(t, opts)
   return {
     NeoTreeNormal = { fg = t.fg, bg = bg_sidebar },
     NeoTreeNormalNC = { fg = t.fg_dim, bg = bg_sidebar },
-    NeoTreeFloatNormal = { fg = t.fg, bg = t.bg_float },
-    NeoTreeFloatBorder = { fg = t.border, bg = t.bg_float },
+    NeoTreeFloatNormal = { fg = t.fg, bg = t.bg },
+    NeoTreeFloatBorder = { fg = t.border, bg = t.bg },
     NeoTreeRootName = { fg = t.green, bold = true },
     NeoTreeDirectoryName = { fg = t.blue },
     NeoTreeDirectoryIcon = { fg = t.blue },

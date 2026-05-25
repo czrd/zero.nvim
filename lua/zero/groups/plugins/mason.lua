@@ -2,7 +2,7 @@ local M = {}
 
 function M.get(t, _opts)
   return {
-    MasonNormal = { fg = t.fg, bg = t.bg_float },
+    MasonNormal = { fg = t.fg, bg = t.bg },
     MasonHeader = { fg = t.bg, bg = t.green, bold = true },
     MasonHeaderSecondary = { fg = t.bg, bg = t.blue, bold = true },
     MasonHighlight = { fg = t.green },

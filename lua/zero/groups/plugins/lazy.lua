@@ -2,8 +2,8 @@ local M = {}
 
 function M.get(t, _opts)
   return {
-    LazyNormal = { fg = t.fg, bg = t.bg_float },
-    LazyBorder = { fg = t.border, bg = t.bg_float },
+    LazyNormal = { fg = t.fg, bg = t.bg },
+    LazyBorder = { fg = t.border, bg = t.bg },
     LazyButton = { fg = t.fg, bg = t.bg_selection },
     LazyButtonActive = { fg = t.bg, bg = t.green, bold = true },
     LazyComment = { link = "Comment" },

@@ -26,11 +26,11 @@ function M.get(t, opts)
     MiniTablineTabpagesection = { fg = t.bg, bg = t.green, bold = true },
 
     -- mini.files
-    MiniFilesNormal = { fg = t.fg, bg = t.bg_float },
-    MiniFilesTitle = { fg = t.green, bg = t.bg_float, bold = true },
+    MiniFilesNormal = { fg = t.fg, bg = t.bg },
+    MiniFilesTitle = { fg = t.green, bg = t.bg, bold = true },
     MiniFilesTitleFocused = { fg = t.bg, bg = t.green, bold = true },
-    MiniFilesBorder = { fg = t.border, bg = t.bg_float },
-    MiniFilesBorderModified = { fg = t.warn, bg = t.bg_float },
+    MiniFilesBorder = { fg = t.border, bg = t.bg },
+    MiniFilesBorderModified = { fg = t.warn, bg = t.bg },
     MiniFilesCursorLine = { bg = t.bg_selection },
     MiniFilesDirectory = { fg = t.blue },
     MiniFilesFile = { fg = t.fg },
@@ -63,9 +63,9 @@ function M.get(t, opts)
     MiniIconsYellow = { fg = t.gold },
 
     -- mini.notify
-    MiniNotifyBorder = { fg = t.border, bg = t.bg_float },
-    MiniNotifyNormal = { fg = t.fg, bg = t.bg_float },
-    MiniNotifyTitle = { fg = t.green, bg = t.bg_float, bold = true },
+    MiniNotifyBorder = { fg = t.border, bg = t.bg },
+    MiniNotifyNormal = { fg = t.fg, bg = t.bg },
+    MiniNotifyTitle = { fg = t.green, bg = t.bg, bold = true },
 
     -- mini.pick
     MiniPickBorder = { fg = t.border },
@@ -79,7 +79,7 @@ function M.get(t, opts)
     MiniPickMatchCurrent = { bg = t.bg_selection },
     MiniPickMatchMarked = { fg = t.teal },
     MiniPickMatchRanges = { fg = t.green, bold = true },
-    MiniPickNormal = { fg = t.fg, bg = t.bg_float },
+    MiniPickNormal = { fg = t.fg, bg = t.bg },
     MiniPickPreviewLine = { bg = t.bg_selection },
     MiniPickPreviewRegion = { bg = t.bg_visual },
     MiniPickPrompt = { fg = t.green },

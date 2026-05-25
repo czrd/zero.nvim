@@ -3,7 +3,6 @@ local M = {}
 function M.get(t, opts)
   local bg = t.bg
   local bg_nc = t.bg_nc
-  local bg_float = t.bg_float
   local bg_status = t.bg_status
   local bg_sidebar = t.bg_sidebar
 
@@ -12,8 +11,8 @@ function M.get(t, opts)
     NormalNC = { fg = t.fg_dim, bg = bg_nc },
     NormalFloat = { link = "Normal" },
     FloatBorder = { fg = t.fg_dim, bg = t.bg },
-    FloatTitle = { fg = t.green, bg = bg_float, bold = true },
-    FloatFooter = { fg = t.fg_dim, bg = bg_float },
+    FloatTitle = { fg = t.green, bg = t.bg, bold = true },
+    FloatFooter = { fg = t.fg_dim, bg = t.bg },
 
     Cursor = { fg = bg, bg = t.fg },
     lCursor = { fg = bg, bg = t.fg },
@@ -48,13 +47,13 @@ function M.get(t, opts)
     Substitute = { fg = bg, bg = t.green, bold = true },
     MatchParen = { fg = t.teal, bold = true, underline = true },
 
-    Pmenu = { fg = t.fg_dim, bg = bg_float },
+    Pmenu = { fg = t.fg_dim, bg = t.bg },
     PmenuSel = { fg = t.fg, bg = t.bg_selection, bold = true },
-    PmenuKind = { fg = t.blue, bg = bg_float },
+    PmenuKind = { fg = t.blue, bg = t.bg },
     PmenuKindSel = { fg = t.blue, bg = t.bg_selection, bold = true },
-    PmenuExtra = { fg = t.comment, bg = bg_float },
+    PmenuExtra = { fg = t.comment, bg = t.bg },
     PmenuExtraSel = { fg = t.fg_dim, bg = t.bg_selection },
-    PmenuMatch = { fg = t.green, bg = bg_float, bold = true },
+    PmenuMatch = { fg = t.green, bg = t.bg, bold = true },
     PmenuMatchSel = { fg = t.green, bg = t.bg_selection, bold = true },
     PmenuSbar = { bg = t.bg_dark },
     PmenuThumb = { bg = t.fg_gutter },
@@ -70,7 +69,7 @@ function M.get(t, opts)
     WinBar = { fg = t.fg, bg = bg },
     WinBarNC = { fg = t.fg_dim, bg = bg_nc },
 
-    Folded = { fg = t.comment, bg = bg_float },
+    Folded = { fg = t.comment, bg = t.bg_float },
     FoldedSign = { fg = t.fg_gutter },
     QuickFixLine = { fg = t.fg, bg = t.bg_selection },
     Question = { fg = t.green },

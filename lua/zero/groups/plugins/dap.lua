@@ -21,7 +21,7 @@ function M.get(t, _opts)
     DapUIFrameName = { fg = t.fg },
     DapUISource = { fg = t.blue },
     DapUILineNumber = { fg = t.fg_gutter },
-    DapUIFloatBorder = { fg = t.border, bg = t.bg_float },
+    DapUIFloatBorder = { fg = t.border, bg = t.bg },
     DapUIWatchesEmpty = { fg = t.comment },
     DapUIWatchesValue = { fg = t.green },
     DapUIWatchesError = { fg = t.red },
@@ -41,7 +41,7 @@ function M.get(t, _opts)
     DapUIUnavailable = { fg = t.comment },
     DapUIWinSelect = { fg = t.green, bold = true },
     DapUIEndofBuffer = { link = "EndOfBuffer" },
-    DapUINormalFloat = { fg = t.fg, bg = t.bg_float },
+    DapUINormalFloat = { fg = t.fg, bg = t.bg },
   }
 end
 

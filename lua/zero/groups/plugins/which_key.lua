@@ -7,12 +7,12 @@ function M.get(t, _opts)
     WhichKeyGroup = { fg = t.blue },
     WhichKeySeparator = { fg = t.fg_gutter },
     WhichKeyDesc = { fg = t.fg },
-    WhichKeyFloat = { bg = t.bg_float },
-    WhichKeyBorder = { fg = t.border, bg = t.bg_float },
+    WhichKeyFloat = { bg = t.bg },
+    WhichKeyBorder = { fg = t.border, bg = t.bg },
     WhichKeyValue = { fg = t.comment },
 
     -- which-key v3
-    WhichKeyNormal = { fg = t.fg, bg = t.bg_float },
+    WhichKeyNormal = { fg = t.fg, bg = t.bg },
     WhichKeyTitle = { fg = t.bg, bg = t.green, bold = true },
     WhichKeyIcon = { fg = t.blue },
     WhichKeyIconBlue = { fg = t.blue },
