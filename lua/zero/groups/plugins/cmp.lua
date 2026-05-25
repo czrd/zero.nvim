@@ -44,8 +44,8 @@ function M.get(t, _opts)
 
     -- blink.cmp
     BlinkCmpMenu = { fg = t.fg, bg = t.bg_float },
-    BlinkCmpMenuBorder = { fg = t.border, bg = t.bg_float },
-    BlinkCmpMenuSelection = { bg = t.bg_selection },
+    BlinkCmpMenuBorder = { fg = t.fg_dim, bg = t.bg },
+    BlinkCmpMenuSelection = { fg = t.bg, bg = t.bg_visual },
     BlinkCmpScrollBarThumb = { bg = t.fg_gutter },
     BlinkCmpScrollBarGutter = { bg = t.bg_dark },
     BlinkCmpLabel = { fg = t.fg },
