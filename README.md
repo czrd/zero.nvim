@@ -136,6 +136,44 @@ vim.cmd("colorscheme zero")
 
 ---
 
+## 🎨 Accessing the palette from Lua
+
+Use `get_palette()` to retrieve the resolved color table — useful for
+building integrations with other plugins (statuslines, custom highlights, etc.).
+
+```lua
+-- follows the style set in setup() (or vim.o.background when style = "auto")
+local p = require("zero").get_palette()
+
+-- force a specific mode regardless of setup()
+local dark  = require("zero").get_palette({ style = "dark" })
+local light = require("zero").get_palette({ style = "light" })
+```
+
+The returned table contains all palette keys:
+
+```lua
+p.green    -- #36e07e (dark) / #0c7d43 (light)
+p.blue     -- #4ea6ff / #2070d0
+p.violet   -- #a98cff / #6a30db
+p.gold     -- #f2d24c / #847000
+p.orange   -- #ff9356 / #b35411
+p.teal     -- #2fd9c8 / #0a7268
+p.red      -- #ff5c5c / #d61f3a
+p.bg       -- background
+p.fg       -- foreground
+-- ... (all keys listed in the Color Palette table above)
+```
+
+**Example — custom highlight using palette colors:**
+
+```lua
+local p = require("zero").get_palette()
+vim.api.nvim_set_hl(0, "MyCustomHL", { fg = p.green, bg = p.bg_float })
+```
+
+---
+
 ## 📊 lualine theme
 
 ```lua

@@ -50,4 +50,12 @@ function M.load(options)
   end
 end
 
+function M.get_palette(options)
+  local opts = config.extend(options)
+  local style = config.resolve_style(opts)
+  local p = vim.deepcopy(palette[style])
+  opts.on_palette(p)
+  return p
+end
+
 return M
