@@ -8,7 +8,7 @@ function M.get(t, opts)
   local bg_sidebar = t.bg_sidebar
 
   return {
-    Normal = { fg = t.fg, bg = bg },
+    Normal = { fg = t.fg, bg = t.bg },
     NormalNC = { fg = t.fg_dim, bg = bg_nc },
     NormalFloat = { link = "Normal" },
     FloatBorder = { fg = t.fg_dim, bg = t.bg },
