@@ -10,8 +10,8 @@ function M.get(t, opts)
   return {
     Normal = { fg = t.fg, bg = bg },
     NormalNC = { fg = t.fg_dim, bg = bg_nc },
-    NormalFloat = { fg = t.fg, bg = bg_float },
-    FloatBorder = { fg = t.border, bg = bg_float },
+    NormalFloat = { link = "Normal" },
+    FloatBorder = { fg = t.fg_dim, bg = t.bg },
     FloatTitle = { fg = t.green, bg = bg_float, bold = true },
     FloatFooter = { fg = t.fg_dim, bg = bg_float },
 
@@ -42,7 +42,7 @@ function M.get(t, opts)
 
     Visual = { bg = t.bg_visual },
     VisualNOS = { bg = t.bg_visual },
-    Search = { fg = bg, bg = t.gold, bold = true },
+    Search = { fg = t.fg, bg = t.gold },
     IncSearch = { fg = bg, bg = t.orange, bold = true },
     CurSearch = { link = "IncSearch" },
     Substitute = { fg = bg, bg = t.green, bold = true },
