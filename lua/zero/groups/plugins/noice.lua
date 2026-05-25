@@ -2,7 +2,7 @@ local M = {}
 
 function M.get(t, _opts)
   return {
-    NoiceCmdline = { fg = t.fg, bg = t.bg_float },
+    NoiceCmdline = { fg = t.fg_dim, bg = t.bg },
     NoiceCmdlineIcon = { fg = t.green },
     NoiceCmdlineIconSearch = { fg = t.gold },
     NoiceCmdlinePopup = { fg = t.fg, bg = t.bg_float },
