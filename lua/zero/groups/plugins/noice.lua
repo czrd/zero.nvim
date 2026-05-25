@@ -2,13 +2,13 @@ local M = {}
 
 function M.get(t, _opts)
   return {
-    NoiceCmdline = { fg = t.fg_dim, bg = t.bg },
+    NoiceCmdline = { fg = t.fg, bg = t.bg },
     NoiceCmdlineIcon = { fg = t.green },
     NoiceCmdlineIconSearch = { fg = t.gold },
-    NoiceCmdlinePopup = { fg = t.fg, bg = t.bg_float },
-    NoiceCmdlinePopupBorder = { fg = t.border, bg = t.bg_float },
-    NoiceCmdlinePopupBorderSearch = { fg = t.gold, bg = t.bg_float },
-    NoiceCmdlinePopupTitle = { fg = t.green, bg = t.bg_float },
+    NoiceCmdlinePopup = { fg = t.fg, bg = t.bg },
+    NoiceCmdlinePopupBorder = { fg = t.border, bg = t.bg },
+    NoiceCmdlinePopupBorderSearch = { fg = t.gold, bg = t.bg },
+    NoiceCmdlinePopupTitle = { fg = t.green, bg = t.bg },
     NoicePopup = { fg = t.fg, bg = t.bg_float },
     NoicePopupBorder = { fg = t.border, bg = t.bg_float },
     NoiceSplit = { fg = t.fg, bg = t.bg },
