@@ -202,9 +202,3 @@ Dark and light theme files are provided for the most common terminal emulators u
 | [Kitty](https://sw.kovidgoyal.net/kitty) | `zero-dark.conf` / `zero-light.conf` | [extras/kitty/README.md](extras/kitty/README.md) |
 | [WezTerm](https://wezfurlong.org/wezterm) | `zero-dark.toml` / `zero-light.toml` | [extras/wezterm/README.md](extras/wezterm/README.md) |
 | [Windows Terminal](https://aka.ms/terminal) | `zero-dark.json` / `zero-light.json` | [extras/windows_terminal/README.md](extras/windows_terminal/README.md) |
-
----
-
-## 📄 License
-
-MIT — see [LICENSE](LICENSE).
