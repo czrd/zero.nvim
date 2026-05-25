@@ -1,10 +1,9 @@
 local M = {}
 
 function M.get(t, opts)
-  local bg_sidebar = t.bg_sidebar
   return {
-    NvimTreeNormal = { fg = t.fg, bg = bg_sidebar },
-    NvimTreeNormalNC = { fg = t.fg_dim, bg = bg_sidebar },
+    NvimTreeNormal = { fg = t.fg, bg = t.bg },
+    NvimTreeNormalNC = { fg = t.fg_dim, bg = t.bg },
     NvimTreeNormalFloat = { fg = t.fg, bg = t.bg_float },
     NvimTreeRootFolder = { fg = t.green, bold = true },
     NvimTreeFolderName = { fg = t.blue },
@@ -24,7 +23,7 @@ function M.get(t, opts)
     NvimTreeGitIgnored = { fg = t.comment },
     NvimTreeExecFile = { fg = t.green, bold = true },
     NvimTreeSymlink = { fg = t.teal },
-    NvimTreeWinSeparator = { fg = t.border, bg = bg_sidebar },
+    NvimTreeWinSeparator = { fg = t.border, bg = t.bg },
     NvimTreeCursorLine = { bg = t.bg_selection },
     NvimTreeCursorColumn = { bg = t.bg_selection },
     NvimTreeIndentMarker = { fg = t.border },
