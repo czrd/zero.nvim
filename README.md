@@ -176,10 +176,34 @@ vim.api.nvim_set_hl(0, "MyCustomHL", { fg = p.green, bg = p.bg_float })
 
 ## 📊 lualine theme
 
+### String (simple)
+
 ```lua
 require("lualine").setup({
   options = { theme = "zero" },
 })
+```
+
+### Lua utility (programmatic)
+
+`require("zero.utils.lualine")` returns the theme table built from the current palette,
+letting you inspect or modify it before passing it to lualine.
+
+```lua
+require("zero").setup({ style = "dark" })
+
+local zero_lualine = require("zero.utils.lualine")
+require("lualine").setup({
+  options = { theme = zero_lualine },
+})
+```
+
+You can override individual sections before passing the table:
+
+```lua
+local theme = require("zero.utils.lualine")
+theme.normal.a.bg = require("zero").get_palette().teal
+require("lualine").setup({ options = { theme = theme } })
 ```
 
 | Mode | Color |
