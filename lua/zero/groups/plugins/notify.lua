@@ -2,7 +2,7 @@ local M = {}
 
 function M.get(t, _opts)
   return {
-    NotifyBackground = { bg = t.bg_float },
+    NotifyBackground = { bg = t.bg },
     NotifyERRORBorder = { fg = t.red, bg = t.bg },
     NotifyERRORIcon = { fg = t.red, bg = t.bg },
     NotifyERRORTitle = { fg = t.red, bg = t.bg },
