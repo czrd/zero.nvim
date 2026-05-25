@@ -116,21 +116,21 @@ vim.cmd("colorscheme zero")
 
 | Role                   | Key             | ☀️ Light  | &nbsp;                                        | 🌑 Dark   | &nbsp;                                        |
 | ---------------------- | --------------- | --------- | --------------------------------------------- | --------- | --------------------------------------------- |
-| Background             | `bg`            | `#f7f8fa` | ![](https://placehold.co/20x20/f7f8fa/f7f8fa) | `#141519` | ![](https://placehold.co/20x20/141519/141519) |
-| Background dark        | `bg_dark`       | `#eceef1` | ![](https://placehold.co/20x20/eceef1/eceef1) | `#0f1013` | ![](https://placehold.co/20x20/0f1013/0f1013) |
-| Background float       | `bg_float`      | `#ffffff` | ![](https://placehold.co/20x20/ffffff/ffffff) | `#1c1d24` | ![](https://placehold.co/20x20/1c1d24/1c1d24) |
-| CursorLine             | `bg_cursorline` | `#eef0f3` | ![](https://placehold.co/20x20/eef0f3/eef0f3) | `#1d1e26` | ![](https://placehold.co/20x20/1d1e26/1d1e26) |
-| Visual                 | `bg_visual`     | `#cdebd9` | ![](https://placehold.co/20x20/cdebd9/cdebd9) | `#2e3b33` | ![](https://placehold.co/20x20/2e3b33/2e3b33) |
-| Foreground             | `fg`            | `#1b1d24` | ![](https://placehold.co/20x20/1b1d24/1b1d24) | `#eef0f4` | ![](https://placehold.co/20x20/eef0f4/eef0f4) |
-| Foreground dim         | `fg_dim`        | `#5b626e` | ![](https://placehold.co/20x20/5b626e/5b626e) | `#b8bcc6` | ![](https://placehold.co/20x20/b8bcc6/b8bcc6) |
-| Gutter                 | `fg_gutter`     | `#aab0bb` | ![](https://placehold.co/20x20/aab0bb/aab0bb) | `#4b5160` | ![](https://placehold.co/20x20/4b5160/4b5160) |
-| Comment                | `comment`       | `#828995` | ![](https://placehold.co/20x20/828995/828995) | `#6e7689` | ![](https://placehold.co/20x20/6e7689/6e7689) |
-| 🌿 **Green** (keyword) | `green`         | `#0c7d43` | ![](https://placehold.co/20x20/0c7d43/0c7d43) | `#36e07e` | ![](https://placehold.co/20x20/36e07e/36e07e) |
-| 🟡 Gold (string)       | `gold`          | `#847000` | ![](https://placehold.co/20x20/847000/847000) | `#f2d24c` | ![](https://placehold.co/20x20/f2d24c/f2d24c) |
-| 🔵 Blue (function)     | `blue`          | `#2070d0` | ![](https://placehold.co/20x20/2070d0/2070d0) | `#4ea6ff` | ![](https://placehold.co/20x20/4ea6ff/4ea6ff) |
-| 🟣 Violet (type)       | `violet`        | `#6a30db` | ![](https://placehold.co/20x20/6a30db/6a30db) | `#a98cff` | ![](https://placehold.co/20x20/a98cff/a98cff) |
-| 🟠 Orange (constant)   | `orange`        | `#b35411` | ![](https://placehold.co/20x20/b35411/b35411) | `#ff9356` | ![](https://placehold.co/20x20/ff9356/ff9356) |
-| 🩵 Teal (operator)     | `teal`          | `#0a7268` | ![](https://placehold.co/20x20/0a7268/0a7268) | `#2fd9c8` | ![](https://placehold.co/20x20/2fd9c8/2fd9c8) |
+| Background             | `bg`            | `#f4f5f7` | ![](https://placehold.co/20x20/f4f5f7/f4f5f7) | `#141519` | ![](https://placehold.co/20x20/141519/141519) |
+| Background dark        | `bg_dark`       | `#e8eaee` | ![](https://placehold.co/20x20/e8eaee/e8eaee) | `#0f1013` | ![](https://placehold.co/20x20/0f1013/0f1013) |
+| Background float       | `bg_float`      | `#fbfcfd` | ![](https://placehold.co/20x20/fbfcfd/fbfcfd) | `#1c1d24` | ![](https://placehold.co/20x20/1c1d24/1c1d24) |
+| CursorLine             | `bg_cursorline` | `#ebedf1` | ![](https://placehold.co/20x20/ebedf1/ebedf1) | `#1d1e26` | ![](https://placehold.co/20x20/1d1e26/1d1e26) |
+| Visual                 | `bg_visual`     | `#c5e3d0` | ![](https://placehold.co/20x20/c5e3d0/c5e3d0) | `#2e3b33` | ![](https://placehold.co/20x20/2e3b33/2e3b33) |
+| Foreground             | `fg`            | `#242731` | ![](https://placehold.co/20x20/242731/242731) | `#eef0f4` | ![](https://placehold.co/20x20/eef0f4/eef0f4) |
+| Foreground dim         | `fg_dim`        | `#636b78` | ![](https://placehold.co/20x20/636b78/636b78) | `#b8bcc6` | ![](https://placehold.co/20x20/b8bcc6/b8bcc6) |
+| Gutter                 | `fg_gutter`     | `#9ba2ad` | ![](https://placehold.co/20x20/9ba2ad/9ba2ad) | `#4b5160` | ![](https://placehold.co/20x20/4b5160/4b5160) |
+| Comment                | `comment`       | `#68707c` | ![](https://placehold.co/20x20/68707c/68707c) | `#6e7689` | ![](https://placehold.co/20x20/6e7689/6e7689) |
+| 🌿 **Green** (keyword) | `green`         | `#0c8045` | ![](https://placehold.co/20x20/0c8045/0c8045) | `#36e07e` | ![](https://placehold.co/20x20/36e07e/36e07e) |
+| 🟡 Gold (string)       | `gold`          | `#7d6a00` | ![](https://placehold.co/20x20/7d6a00/7d6a00) | `#f2d24c` | ![](https://placehold.co/20x20/f2d24c/f2d24c) |
+| 🔵 Blue (function)     | `blue`          | `#1d6fd0` | ![](https://placehold.co/20x20/1d6fd0/1d6fd0) | `#4ea6ff` | ![](https://placehold.co/20x20/4ea6ff/4ea6ff) |
+| 🟣 Violet (type)       | `violet`        | `#7138df` | ![](https://placehold.co/20x20/7138df/7138df) | `#a98cff` | ![](https://placehold.co/20x20/a98cff/a98cff) |
+| 🟠 Orange (constant)   | `orange`        | `#ad520f` | ![](https://placehold.co/20x20/ad520f/ad520f) | `#ff9356` | ![](https://placehold.co/20x20/ff9356/ff9356) |
+| 🩵 Teal (operator)     | `teal`          | `#0b766c` | ![](https://placehold.co/20x20/0b766c/0b766c) | `#2fd9c8` | ![](https://placehold.co/20x20/2fd9c8/2fd9c8) |
 | 🔴 Red (error)         | `red`           | `#d61f3a` | ![](https://placehold.co/20x20/d61f3a/d61f3a) | `#ff5c5c` | ![](https://placehold.co/20x20/ff5c5c/ff5c5c) |
 
 ---
@@ -152,12 +152,12 @@ local light = require("zero").get_palette({ style = "light" })
 The returned table contains all palette keys:
 
 ```lua
-p.green    -- #36e07e (dark) / #0c7d43 (light)
-p.blue     -- #4ea6ff / #2070d0
-p.violet   -- #a98cff / #6a30db
-p.gold     -- #f2d24c / #847000
-p.orange   -- #ff9356 / #b35411
-p.teal     -- #2fd9c8 / #0a7268
+p.green    -- #36e07e (dark) / #0c8045 (light)
+p.blue     -- #4ea6ff / #1d6fd0
+p.violet   -- #a98cff / #7138df
+p.gold     -- #f2d24c / #7d6a00
+p.orange   -- #ff9356 / #ad520f
+p.teal     -- #2fd9c8 / #0b766c
 p.red      -- #ff5c5c / #d61f3a
 p.bg       -- background
 p.fg       -- foreground

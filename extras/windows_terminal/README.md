@@ -18,7 +18,7 @@ Two theme files: `zero-dark.json` and `zero-light.json`.
     },
     {
       "name": "zero-light",
-      "background": "#f7f8fa",
+      "background": "#f4f5f7",
       ...
     }
   ]

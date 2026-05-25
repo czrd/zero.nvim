@@ -2,41 +2,41 @@
 # https://github.com/your-username/zero.nvim
 
 [colors.primary]
-background = "#f7f8fa"
-foreground = "#1b1d24"
+background = "#f4f5f7"
+foreground = "#242731"
 
 [colors.cursor]
-text   = "#f7f8fa"
-cursor = "#0c7d43"
+text   = "#f4f5f7"
+cursor = "#0c8045"
 
 [colors.vi_mode_cursor]
-text   = "#f7f8fa"
-cursor = "#0c7d43"
+text   = "#f4f5f7"
+cursor = "#0c8045"
 
 [colors.search.matches]
-foreground = "#f7f8fa"
-background = "#847000"
+foreground = "#f4f5f7"
+background = "#7d6a00"
 
 [colors.search.focused_match]
-foreground = "#f7f8fa"
-background = "#b35411"
+foreground = "#f4f5f7"
+background = "#ad520f"
 
 [colors.normal]
-black   = "#e2e4e8"
+black   = "#d8dce3"
 red     = "#d61f3a"
-green   = "#0c7d43"
-yellow  = "#847000"
-blue    = "#2070d0"
-magenta = "#6a30db"
-cyan    = "#0a7268"
-white   = "#5b626e"
+green   = "#0c8045"
+yellow  = "#7d6a00"
+blue    = "#1d6fd0"
+magenta = "#7138df"
+cyan    = "#0b766c"
+white   = "#636b78"
 
 [colors.bright]
-black   = "#aab0bb"
-red     = "#b81731"
-green   = "#0a6b3a"
-yellow  = "#6f5e00"
-blue    = "#1a5fb0"
-magenta = "#5826bd"
-cyan    = "#086158"
-white   = "#1b1d24"
+black   = "#9ba2ad"
+red     = "#bf1731"
+green   = "#0b713b"
+yellow  = "#6d5c00"
+blue    = "#1a61b9"
+magenta = "#602cc7"
+cyan    = "#096960"
+white   = "#242731"

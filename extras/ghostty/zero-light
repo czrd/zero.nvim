@@ -4,26 +4,26 @@
 # Place this file in ~/.config/ghostty/themes/zero-light
 # then set: theme = zero-light
 
-background = #f7f8fa
-foreground = #1b1d24
-cursor-color = #0c7d43
-cursor-text  = #f7f8fa
-selection-background = #cdebd9
-selection-foreground = #1b1d24
+background = #f4f5f7
+foreground = #242731
+cursor-color = #0c8045
+cursor-text  = #f4f5f7
+selection-background = #c5e3d0
+selection-foreground = #242731
 
-palette = 0=#e2e4e8
+palette = 0=#d8dce3
 palette = 1=#d61f3a
-palette = 2=#0c7d43
-palette = 3=#847000
-palette = 4=#2070d0
-palette = 5=#6a30db
-palette = 6=#0a7268
-palette = 7=#5b626e
-palette = 8=#aab0bb
-palette = 9=#b81731
-palette = 10=#0a6b3a
-palette = 11=#6f5e00
-palette = 12=#1a5fb0
-palette = 13=#5826bd
-palette = 14=#086158
-palette = 15=#1b1d24
+palette = 2=#0c8045
+palette = 3=#7d6a00
+palette = 4=#1d6fd0
+palette = 5=#7138df
+palette = 6=#0b766c
+palette = 7=#636b78
+palette = 8=#9ba2ad
+palette = 9=#bf1731
+palette = 10=#0b713b
+palette = 11=#6d5c00
+palette = 12=#1a61b9
+palette = 13=#602cc7
+palette = 14=#096960
+palette = 15=#242731
