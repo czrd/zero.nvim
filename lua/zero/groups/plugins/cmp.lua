@@ -39,7 +39,7 @@ function M.get(t, _opts)
     CmpItemKindCodeium = { fg = t.teal },
     CmpItemKindTabNine = { fg = t.teal },
     CmpDocumentation = { fg = t.fg, bg = t.bg },
-    CmpDocumentationBorder = { fg = t.border, bg = t.bg },
+    CmpDocumentationBorder = { link = "FloatBorder" },
     CmpGhostText = { fg = t.comment },
 
     -- blink.cmp
