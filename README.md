@@ -1,5 +1,7 @@
 # 🌿 zero.nvim
 
+![zero.nvim dark screenshot](assets/screenshot-dark.png)
+
 A flat, high-contrast Neovim colorscheme with green as its signature color.
 Dual dark/light modes, full Treesitter support, and coverage for 25+ popular plugins.
 
