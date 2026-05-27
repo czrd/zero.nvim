@@ -50,9 +50,9 @@ function M.get(t, _opts)
     BufferLineGroupSeparator = { fg = t.green, bg = bg_inactive },
     BufferLineOffsetSeparator = { fg = t.border, bg = bg_inactive },
     BufferLineTruncMarker = { fg = t.fg_gutter, bg = bg_inactive },
-    BufferLineDevIconDefault = { bg = bg_inactive },
+    BufferLineDevIconDefault = { bg = t.bg },
     BufferLineDevIconDefaultSelected = { bg = t.bg },
-    BufferLineDevIconDefaultInactive = { bg = bg_inactive },
+    BufferLineDevIconDefaultInactive = { bg = t.bg },
   }
 end
 
