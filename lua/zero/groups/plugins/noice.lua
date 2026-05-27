@@ -33,7 +33,7 @@ function M.get(t, _opts)
     NoiceLspProgressSpinner = { fg = t.green },
     NoiceLspProgressTitle = { fg = t.fg },
     NoiceMini = { fg = t.fg, bg = t.bg_statusline },
-    NoiceVirtualText = { fg = t.comment },
+    NoiceVirtualText = { fg = t.blue, bg = t.bg_blue },
   }
 end
 
