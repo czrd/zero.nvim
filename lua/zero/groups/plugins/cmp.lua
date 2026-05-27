@@ -81,11 +81,11 @@ function M.get(t, _opts)
     BlinkCmpKindTypeParameter = { fg = t.violet },
     BlinkCmpKindCopilot = { fg = t.teal },
     BlinkCmpDoc = { fg = t.fg, bg = t.bg },
-    BlinkCmpDocBorder = { fg = t.border, bg = t.bg },
+    BlinkCmpDocBorder = { link = "FloatBorder" },
     BlinkCmpDocSeparator = { fg = t.border },
     BlinkCmpDocCursorLine = { bg = t.bg_selection },
     BlinkCmpSignatureHelp = { fg = t.fg, bg = t.bg },
-    BlinkCmpSignatureHelpBorder = { fg = t.border, bg = t.bg },
+    BlinkCmpSignatureHelpBorder = { link = "FloatBorder" },
     BlinkCmpSignatureHelpActiveParameter = { fg = t.green, underline = true },
     BlinkCmpGhostText = { fg = t.comment },
   }

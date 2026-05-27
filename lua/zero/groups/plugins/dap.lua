@@ -21,7 +21,7 @@ function M.get(t, _opts)
     DapUIFrameName = { fg = t.fg },
     DapUISource = { fg = t.blue },
     DapUILineNumber = { fg = t.fg_gutter },
-    DapUIFloatBorder = { fg = t.border, bg = t.bg },
+    DapUIFloatBorder = { link = "FloatBorder" },
     DapUIWatchesEmpty = { fg = t.comment },
     DapUIWatchesValue = { fg = t.green },
     DapUIWatchesError = { fg = t.red },

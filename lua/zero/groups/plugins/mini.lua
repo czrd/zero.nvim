@@ -29,7 +29,7 @@ function M.get(t, opts)
     MiniFilesNormal = { fg = t.fg, bg = t.bg },
     MiniFilesTitle = { fg = t.green, bg = t.bg, bold = true },
     MiniFilesTitleFocused = { fg = t.bg, bg = t.green, bold = true },
-    MiniFilesBorder = { fg = t.border, bg = t.bg },
+    MiniFilesBorder = { link = "FloatBorder" },
     MiniFilesBorderModified = { fg = t.warn, bg = t.bg },
     MiniFilesCursorLine = { bg = t.bg_selection },
     MiniFilesDirectory = { fg = t.blue },
@@ -63,12 +63,12 @@ function M.get(t, opts)
     MiniIconsYellow = { fg = t.gold },
 
     -- mini.notify
-    MiniNotifyBorder = { fg = t.border, bg = t.bg },
+    MiniNotifyBorder = { link = "FloatBorder" },
     MiniNotifyNormal = { fg = t.fg, bg = t.bg },
     MiniNotifyTitle = { fg = t.green, bg = t.bg, bold = true },
 
     -- mini.pick
-    MiniPickBorder = { fg = t.border },
+    MiniPickBorder = { link = "FloatBorder" },
     MiniPickBorderBusy = { fg = t.warn },
     MiniPickBorderText = { fg = t.green },
     MiniPickHeader = { fg = t.green, bold = true },

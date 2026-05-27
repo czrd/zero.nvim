@@ -8,7 +8,7 @@ function M.get(t, _opts)
     WhichKeySeparator = { fg = t.fg_gutter },
     WhichKeyDesc = { fg = t.fg },
     WhichKeyFloat = { bg = t.bg },
-    WhichKeyBorder = { fg = t.border, bg = t.bg },
+    WhichKeyBorder = { link = "FloatBorder" },
     WhichKeyValue = { fg = t.comment },
 
     -- which-key v3

@@ -6,7 +6,7 @@ function M.get(t, opts)
     NeoTreeNormal = { fg = t.fg, bg = bg_sidebar },
     NeoTreeNormalNC = { fg = t.fg_dim, bg = bg_sidebar },
     NeoTreeFloatNormal = { fg = t.fg, bg = t.bg },
-    NeoTreeFloatBorder = { fg = t.border, bg = t.bg },
+    NeoTreeFloatBorder = { link = "FloatBorder" },
     NeoTreeRootName = { fg = t.green, bold = true },
     NeoTreeDirectoryName = { fg = t.blue },
     NeoTreeDirectoryIcon = { fg = t.blue },
