@@ -41,9 +41,9 @@ function M.get(t, opts)
 
     Visual = { bg = t.bg_visual },
     VisualNOS = { bg = t.bg_visual },
-    Search = { fg = t.fg, bg = t.gold },
+    Search = { fg = t.fg, bg = t.yellow },
     IncSearch = { fg = bg, bg = t.orange, bold = true },
-    CurSearch = { link = "IncSearch" },
+    CurSearch = { fg = bg, bg = t.orange, bold = true },
     Substitute = { fg = bg, bg = t.green, bold = true },
     MatchParen = { fg = t.teal, bold = true, underline = true },
 
