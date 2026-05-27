@@ -30,7 +30,7 @@ function M.get(t, opts)
     SignColumn = { fg = t.fg_gutter, bg = bg },
     FoldColumn = { fg = t.fg_gutter, bg = bg },
     CursorLineFold = { fg = t.green, bg = t.bg_cursorline },
-    CursorLineSign = { bg = t.bg_cursorline },
+    CursorLineSign = { bg = bg },
 
     Conceal = { fg = t.comment },
     Directory = { fg = t.blue },
