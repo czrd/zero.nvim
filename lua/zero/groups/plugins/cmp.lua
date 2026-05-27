@@ -82,7 +82,7 @@ function M.get(t, _opts)
     BlinkCmpKindCopilot = { fg = t.teal },
     BlinkCmpDoc = { fg = t.fg, bg = t.bg },
     BlinkCmpDocBorder = { link = "FloatBorder" },
-    BlinkCmpDocSeparator = { fg = t.border },
+    BlinkCmpDocSeparator = { link = "FloatBorder" },
     BlinkCmpDocCursorLine = { bg = t.bg_selection },
     BlinkCmpSignatureHelp = { fg = t.fg, bg = t.bg },
     BlinkCmpSignatureHelpBorder = { link = "FloatBorder" },
