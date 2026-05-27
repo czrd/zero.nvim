@@ -5,12 +5,6 @@
 A flat, high-contrast Neovim colorscheme with green as its signature color.
 Dual dark/light modes, full Treesitter support, and coverage for 25+ popular plugins.
 
-## Preview
-
-| Light | Dark |
-| ----- | ---- |
-| ![zero.nvim light screenshot](assets/screenshot-light.png) | ![zero.nvim dark screenshot](assets/screenshot-dark.png) |
-
 ## ✨ Design
 
 - 🪟 **Flat** — solid colors only, no gradients or decorative bold/italic
@@ -18,6 +12,12 @@ Dual dark/light modes, full Treesitter support, and coverage for 25+ popular plu
 - 🌿 **Green signature** — keywords, cursor, selections, and UI chrome all anchored in green
 - 🎯 **Tight palette** — 7 hue families (green · gold · blue · violet · orange · teal · red)
 - 🌓 **Dual mode** — dark and light share the same role assignments; only HEX values differ
+
+## Preview
+
+| Light | Dark |
+| ----- | ---- |
+| ![zero.nvim light screenshot](assets/screenshot-light.png) | ![zero.nvim dark screenshot](assets/screenshot-dark.png) |
 
 ---
 
