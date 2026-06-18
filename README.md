@@ -59,6 +59,9 @@ require("zero").setup({
   -- Remove backgrounds only from sidebar-style windows (NvimTree, Aerial, etc.)
   transparent_sidebar = false,
 
+  -- Soften accent and terminal colors to a pastel tone
+  pastel = false,
+
   -- Dim inactive windows slightly
   dim_inactive = false,
 
