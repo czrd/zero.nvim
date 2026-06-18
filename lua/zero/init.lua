@@ -23,6 +23,9 @@ function M.load(options)
 
   local p = vim.deepcopy(palette[style])
   opts.on_palette(p)
+  if opts.pastel then
+    util.pastelize_palette(p)
+  end
   local t = theme.get(p, opts)
 
   local groups = require("zero.groups").get(t, opts)

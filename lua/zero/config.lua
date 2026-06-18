@@ -4,6 +4,7 @@ M.defaults = {
   style = "light",
   transparent = false,
   transparent_sidebar = false,
+  pastel = false,
   dim_inactive = false,
   terminal_colors = true,
   styles = {
@@ -31,6 +32,7 @@ local function normalize(options)
   if type(options.on_highlights) ~= "function" then
     options.on_highlights = function(_, _) end
   end
+  options.pastel = options.pastel == true
   return options
 end
 
